@@ -1,16 +1,21 @@
 # InputConsole
-> **InputConsole** is a console for Python that will keep all output above the input line without interrupting the input line.
-
-```shell
-$ pip3 install inputconsole
-```
 
 [![PyPI version](https://badge.fury.io/py/inputconsole.svg)](https://badge.fury.io/py/inputconsole)
 [![Downloads](https://pepy.tech/badge/inputconsole)](https://pepy.tech/project/inputconsole)
 [![GitHub issues](https://img.shields.io/github/issues/nathan-fiscaletti/inputconsole.svg)](https://github.com/nathan-fiscaletti/inputconsole/issues)
 [![GitHub license](https://img.shields.io/github/license/nathan-fiscaletti/inputconsole.svg)](https://github.com/nathan-fiscaletti/inputconsole/blob/master/LICENSE)
 
+**InputConsole** is a console for Python that will keep all output above the input line without interrupting the input line.
+
+[Looking for the GoLang Version?](https://github.com/nathan-fiscaletti/inputconsole-go)
+
 ![Demo](./demo.gif)
+
+## Install
+
+```shell
+$ pip3 install inputconsole
+```
 
 ## Example
 
