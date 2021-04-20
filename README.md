@@ -6,7 +6,7 @@ A console that will keep all output above the input line without interrupting th
 
 ```shell
 $ pip3 install pyconsole
-``
+```
 
 ## Example
 
