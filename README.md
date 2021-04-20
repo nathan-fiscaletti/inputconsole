@@ -2,6 +2,12 @@
 
 A console that will keep all output above the input line without interrupting the input line.
 
+## Install
+
+```shell
+$ pip3 install pyconsole
+``
+
 ## Example
 
 ```py
