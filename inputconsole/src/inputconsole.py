@@ -3,7 +3,7 @@ from threading import Thread
 import sys
 import readchar
 
-class PyConsole():
+class InputConsole():
     """
     A console will present output like a normal terminal would, but it
     will maintain an input line that is always present at the bottom
@@ -139,47 +139,3 @@ class PyConsole():
                 if self.__unknown_command_handler(command):
                    return
             self.write("Unknown command: {0}\n".format(command)) 
-
-# # ####################################################################
-# # EXAMPLE
-# # ####################################################################
-
-# def problem():
-#     # Generate random output to keep the output thread active.
-#     def print_output():
-#         num = 0
-#         while True:
-#             print("this is an output message: {0}".format(num))
-#             time.sleep(2)
-#             num += 1
-#     t = Thread(target=print_output)
-#     t.start()
-
-#     read = input('> ')
-#     t.join()
-
-# def solution():
-#     # Create the console
-#     console = Console()
-
-#     # Register a command
-#     def help(args):
-#         console.write("I don't want to help you {0}.\n".format(args[0]))
-#     console.register_command('help', help)
-
-#     # Start listening for input on a new thread
-#     console.listen_for_input()
-
-#     # Generate random output to keep the output thread active.
-#     def print_output():
-#         num = 0
-#         while True:
-#             console.write("this is an output message: {0}\n".format(num))
-#             time.sleep(2)
-#             num += 1
-#     t = Thread(target=print_output)
-#     t.start()
-#     t.join()
-
-# if __name__ == "__main__":
-#     solution()

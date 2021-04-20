@@ -1,20 +1,20 @@
-# PyConsole
+# InputConsole
 
-A console that will keep all output above the input line without interrupting the input line.
+A console for Python that will keep all output above the input line without interrupting the input line.
 
 ## Install
 
 ```shell
-$ pip3 install pyconsole
+$ pip3 install inputconsole
 ```
 
 ## Example
 
 ```py
-from pyconsole import PyConsole
+from inputconsole import InputConsole
 
 # Create the console
-console = PyConsole()
+console = InputConsole()
 
 # Register a command
 def help(args):
