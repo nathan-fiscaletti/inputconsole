@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="inputconsole",
-    version="0.0.1",
+    version="1.0.1",
     author="Nathan Fiscaletti",
     description="A console for Python that will keep all output above the input line without interrupting the input line.",
     long_description=long_description,
