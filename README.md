@@ -5,6 +5,8 @@
 $ pip3 install inputconsole
 ```
 
+![Demo](./demo.gif)
+
 [![PyPI version](https://badge.fury.io/py/inputconsole.svg)](https://badge.fury.io/py/inputconsole)
 [![Downloads](https://pepy.tech/badge/inputconsole)](https://pepy.tech/project/inputconsole)
 [![GitHub issues](https://img.shields.io/github/issues/nathan-fiscaletti/inputconsole.svg)](https://github.com/nathan-fiscaletti/inputconsole/issues)
