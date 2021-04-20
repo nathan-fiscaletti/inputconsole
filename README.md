@@ -23,6 +23,13 @@ def help(args):
     console.write("I don't want to help you {0}.\n".format(args[0]))
 console.register_command('help', help)
 
+# Set unknown command handler, Return 'True' for command handled or
+# 'False' for command not handled.
+def unknown_command_handler(command):
+    console.write("Unknown command: " + command)
+    return True
+console.set_unknown_command_handler(unknown_command_handler)
+
 # Start listening for input on a new thread
 # Input line will always stay at the bottom
 console.listen_for_input()
